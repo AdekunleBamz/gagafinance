@@ -113,6 +113,10 @@
   (ok (var-get auction-contract))
 )
 
+;; Get contract owner
+(define-read-only (get-contract-owner)
+  (ok CONTRACT-OWNER))
+
 ;; ============================================
 ;; STX ESCROW FUNCTIONS
 ;; ============================================
